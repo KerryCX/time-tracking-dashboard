@@ -18,11 +18,11 @@
 <!--background for whole screen background set-->
 <body class="bg-black">
 <!--container for boxes, width 91.6666667% of wiewing window-->
-<!--Set to flex-col so all boxes positioned vertically in mobile view-->
+<!--Set to flex-col so all boxes positioned vertically in mobile view-->5
 <!--set to flex-row for bigger sizes-->
 <main class="container box-border w-10/12 h-full mx-auto flex flex-col gap-4 gap-y-4 text-white font-mono font-normal pt-8 md:flex-row">
   <!--main navigation box for profile details and selection of period of time for report: Daily, Weekly or Monthly-->
-  <nav class="container box-border bg-indigo-900 box-border border-0 border-solid rounded-lg h-40">
+  <nav class="container box-border bg-indigo-900 box-border border-0 border-solid rounded-lg h-40 w-auto md:h-auto md:w-1/4">
     <!--box for name of person. Flex-row to text from photo horizontally-->
     <!--Padding vertical 1rem, padding left 1rem Height is 66.66667% of main navigation box-->
     <!--Overlays main navigation box-->
@@ -40,7 +40,7 @@
     </div>
     <!--box for choice of period of time for report, child of main navigation box-->
     <!--flex-row to position children horizontally, with space between evenly spaced-->
-    <div class="container flex flex-row justify-between items-center">
+    <div class="container flex flex-row justify-between items-center md:flex-col">
       <!--hover changes colour of anchor tags-->
       <h3 class="text-indigo-400 pl-5 py-4 hover:bg-indigo-500"><a href="#" Target="_blank">Daily</a></h3>
       <h3 class="py-4 hover:bg-indigo-500"><a href="#" Target="_blank">Weekly</a></h3>
